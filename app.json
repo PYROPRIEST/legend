@@ -16,8 +16,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/matrixbotz0/PETER-PARKER-BOT",
-    "repository": "https://github.com/matrixbotz0/PETER-PARKER-BOT",
+    "website": "https://github.com/Aneebrahman/PETER-PARKER-BOT",
+    "repository": "https://github.com/Aneebrahman/PETER-PARKER-BOT",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
