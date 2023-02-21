@@ -54,7 +54,7 @@
 
 ## Deploy to Heroku 
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/matrixbotz0/PETER-PARKER-BOT)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Aneebrahman/PETER-PARKER-BOT)
 
 ## Deploy to Render
 
