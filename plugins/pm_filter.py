@@ -546,7 +546,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("𝑰 𝑳𝒊𝒌𝒆 𝒀𝒐𝒖𝒓 𝑺𝒎𝒂𝒓𝒕𝒏𝒆𝒔𝒔, 𝑩𝒖𝒕 𝑫𝒐𝒏'𝒕 𝑩𝒆 𝑶𝒗𝒆𝒓𝒔𝒎𝒂𝒓𝒕 😒\n@MLZ_BOTZ", show_alert=True)
+            await query.answer("𝑰 𝑳𝒊𝒌𝒆 𝒀𝒐𝒖𝒓 𝑺𝒎𝒂𝒓𝒕𝒏𝒆𝒔𝒔, 𝑩𝒖𝒕 𝑫𝒐𝒏'𝒕 𝑩𝒆 𝑶𝒗𝒆𝒓𝒔𝒎𝒂𝒓𝒕 😒\n@Aᴋ Bᴏᴛꜱ", show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
@@ -800,7 +800,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer(MSG_ALRT)
     elif query.data == "help2":
         buttons = [[                               
-            InlineKeyboardButton('🎁 Mᴏʀᴇ Fᴇᴀᴛᴜʀᴇꜱ 🎁', callback_data='help')  
+            InlineKeyboardButton('♻️ Mᴏʀᴇ Fᴇᴀᴛᴜʀᴇꜱ ♻️', callback_data='help')  
             ],[
             InlineKeyboardButton('Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ', callback_data='manuelfilter'),
             InlineKeyboardButton('Aᴜᴛᴏ Fɪʟᴛᴇʀ', callback_data='autofilter')
@@ -810,6 +810,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Sᴛᴀᴛᴜꜱ', callback_data='stats')
+            ],[
+            InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/movies_channel001')
          ]] 
         reply_markup = InlineKeyboardMarkup(buttons)             
         await query.message.edit_text(                     
