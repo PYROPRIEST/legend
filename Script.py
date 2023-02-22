@@ -292,9 +292,12 @@ My Nᴀᴍᴇ Iꜱ <a href=https://t.me/{}>{}</a>, I ᴄᴀɴ Pʀᴏᴠɪᴅᴇ 
 ★Requested by</b> : {message.from_user.mention}
 """
 
-    CUSTOM_FILE_CAPTION = """<b>FILE : <code>{file_name}</code>
-    Size : <i>{file_size}</i> 
-    @Ak_moviesgroup</b>"""
+    CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : <code>{file_name}</code>
+
+╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
+➪<a href=https://t.me/Ak_moviesgroup> Aᴋ Mᴏᴠɪᴇꜱ</a>
+➪<a href=https://t.me/movies_channel001> Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ​ </a>
+╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
