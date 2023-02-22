@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """<b>Hᴀɪ {},
-My Nᴀᴍᴇ Iꜱ <a href=https://t.me/{}>{}</a>, I ᴄᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇꜱ, Jᴜꜱᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Mᴀᴋᴇ Mᴇ Aᴅᴍɪɴ...... Tʜᴇɴ Sᴇᴇ My Pᴏᴡᴇʀꜱ💥💥🔥\n\n<a href=https://t.me/psycho_009>『ƬǤ』×͜×ʟᴇɢᴇɴᴅ𓄀</a></b>"""
+My Nᴀᴍᴇ Iꜱ <a href=https://t.me/{}>{}</a>, I ᴄᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇꜱ, Jᴜꜱᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Mᴀᴋᴇ Mᴇ Aᴅᴍɪɴ...... Tʜᴇɴ Sᴇᴇ My Pᴏᴡᴇʀꜱ💥💥🔥\n\n©Mᴀɪɴᴛᴀɪɴᴇᴅ ʙy: <a href=https://t.me/psycho_009>『ƬǤ』×͜×ʟᴇɢᴇɴᴅ𓄀</a></b>"""
     
     HELP_TXT = """<b>𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.</b>"""
@@ -233,7 +233,9 @@ This module only works for my admins
 👤 Tᴏᴛᴀʟ Uꜱᴇʀꜱ: <code>{}</code>
 ♻️ Tᴏᴛᴀʟ Gʀᴏᴜᴩꜱ: <code>{}</code>
 🗃️ Uꜱᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱
-🆓 Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱</b>"""
+🆓 Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱
+
+©Mᴀɪɴᴛᴀɪɴᴇᴅ ʙy:<a href=https://t.me/psycho_009>『ƬǤ』×͜×ʟᴇɢᴇɴᴅ𓄀</a></b>"""
 
     CARB_TXT = """<b>Help</b> : 𝗖𝗔𝗥𝗕𝗢𝗡
 𝙲𝙰𝚁𝙱𝙾𝙽 𝙸𝚂 𝙰 𝙵𝙴𝚄𝚃𝚄𝚁𝙴 𝚃𝙾 𝙼𝙰𝙺𝙴 𝚃𝙷𝙴 𝙸𝙼𝙰𝙶𝙴 𝙰𝚂 𝚂𝙷𝙾𝚆𝙽 𝙸𝙽 𝚃𝙷𝙴 𝚃𝙾𝙿 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁𝙴 𝚃𝙴𝚇𝚃𝚂.
@@ -272,7 +274,7 @@ Name - {}
     SUR_TXT = """
 <b>
 Hᴀɪ {},
-My Nᴀᴍᴇ Iꜱ <a href=https://t.me/{}>{}</a>, I ᴄᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇꜱ, Jᴜꜱᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Mᴀᴋᴇ Mᴇ Aᴅᴍɪɴ...... Tʜᴇɴ Sᴇᴇ My Pᴏᴡᴇʀꜱ💥💥🔥\n\n<a href=https://t.me/psycho_009>『ƬǤ』×͜×ʟᴇɢᴇɴᴅ𓄀</a> 
+My Nᴀᴍᴇ Iꜱ <a href=https://t.me/{}>{}</a>, I ᴄᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇꜱ, Jᴜꜱᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Mᴀᴋᴇ Mᴇ Aᴅᴍɪɴ...... Tʜᴇɴ Sᴇᴇ My Pᴏᴡᴇʀꜱ💥💥🔥\n\n©Mᴀɪɴᴛᴀɪɴᴇᴅ ʙy: <a href=https://t.me/psycho_009>『ƬǤ』×͜×ʟᴇɢᴇɴᴅ𓄀</a> 
 </b>
 """
 
