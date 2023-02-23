@@ -778,13 +778,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Gʀᴏᴜᴩ', url='https://t.me/Ak_moviesgroup')
+            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ 🔍', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('⌬ Gʀᴏᴜᴩ ⌬', url='https://t.me/Ak_moviesgroup')
         ], [
-            InlineKeyboardButton('Hᴇʟᴘ', callback_data='help2'),
-            InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('〄 Hᴇʟᴘ〄 ', callback_data='help2'),
+            InlineKeyboardButton('〄 Aʙᴏᴜᴛ 〄', callback_data='about')
         ], [
-            InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ', url='https://t.me/movies_channel001')
+            InlineKeyboardButton('⌬ Uᴩᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ ⌬', url='https://t.me/movies_channel001')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
