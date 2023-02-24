@@ -811,7 +811,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Sᴛᴀᴛᴜꜱ', callback_data='stats')
             ],[
-            InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/movies_channel001')
+            InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', callback_data='updatesane')
          ]] 
         reply_markup = InlineKeyboardMarkup(buttons)             
         await query.message.edit_text(                     
@@ -896,6 +896,24 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/movies_channel001')
             ],[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='about')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.UPDATES_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+    elif query.data == "updatesane":
+        buttons = [[
+            InlineKeyboardButton('Movie updates', url='https://t.me/movies_channel001')
+            ],[
+            InlineKeyboardButton('Movies 1', url='https://t.me/+Aj0yVKTymedlMjA1'),
+            InlineKeyboardButton('Movies 2', url='https://t.me/+Dg0rF0p2clllYWRl')
+            ],[
+            InlineKeyboardButton('Movies 3', url='https://t.me/+WwChcNzEM3FlODA1'),
+            InlineKeyboardButton('Movies 4', url='https://t.me/+Myrr5URvWxQ2MDll')
+            ],[
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
