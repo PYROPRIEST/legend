@@ -779,7 +779,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ 🔍', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('⌬ Gʀᴏᴜᴩ ⌬', url='https://t.me/Ak_moviesgroup')
+            InlineKeyboardButton('⌬ 𝙾𝚆𝙽𝙴𝚁 𝙸𝙽𝙵𝙾 ⌬', callback_data='ownerane')
         ], [
             InlineKeyboardButton('〄 Hᴇʟᴘ〄 ', callback_data='help2'),
             InlineKeyboardButton('〄 Aʙᴏᴜᴛ 〄', callback_data='about')
@@ -900,6 +900,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.UPDATES_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+    elif query.data == "ownerane":
+        buttons = [[
+            InlineKeyboardButton('OWNER', url='https://t.me/psycho_009')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.OWNERANE_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
