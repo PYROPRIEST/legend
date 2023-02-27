@@ -905,19 +905,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "updatesane":
         buttons = [[
-            InlineKeyboardButton('Mᴏᴠɪᴇ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/movies_channel001')
-            ],[
-            InlineKeyboardButton('Mᴏᴠɪᴇ Fɪʟᴇꜱ 1', url='https://t.me/+Aj0yVKTymedlMjA1'),
-            InlineKeyboardButton('Mᴏᴠɪᴇ Fɪʟᴇꜱ 2', url='https://t.me/+Dg0rF0p2clllYWRl')
-            ],[
-            InlineKeyboardButton('Mᴏᴠɪᴇ Fɪʟᴇꜱ 3', url='https://t.me/+WwChcNzEM3FlODA1'),
-            InlineKeyboardButton('Mᴏᴠɪᴇ Fɪʟᴇꜱ 4', url='https://t.me/+Myrr5URvWxQ2MDll')
-            ],[
-            InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴩ', url='https://t.me/Ak_moviesgroup')
+            InlineKeyboardButton('Mᴏᴠɪᴇ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/movies_channel001'),
+            InlineKeyboardButton('Gʀᴏᴜᴩ', url='https://t.me/+X90aS7BxYqI3ZWQ1')
             ],[
             InlineKeyboardButton('Bᴏᴛ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Ak_Links1')
             ],[
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
+            InlineKeyboardButton('Bᴀᴄᴋ Tᴏ Sᴛᴀʀᴛ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
