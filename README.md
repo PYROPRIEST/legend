@@ -1,21 +1,3 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=&weight=800&size=300&pause=1000&width=6000&height=1900&lines=%F0%9D%97%AA%F0%9D%97%98%F0%9D%97%9F%F0%9D%97%96%F0%9D%97%A2%F0%9D%97%A0+%F0%9D%97%A7%F0%9D%97%A2+%F0%9D%99%8B%F0%9D%99%80%F0%9D%99%8F%F0%9D%99%80%F0%9D%99%8D+%F0%9D%99%8B%F0%9D%98%BC%F0%9D%99%8D%F0%9D%99%86%F0%9D%99%80%F0%9D%99%8D+%F0%9D%90%81%F0%9D%90%8E%F0%9D%90%93;%F0%9D%97%96%F0%9D%97%A5%F0%9D%97%98%F0%9D%97%94%F0%9D%97%A7%F0%9D%97%98%F0%9D%97%97+%F0%9D%97%95%F0%9D%97%AC+%F0%9D%97%A7%F0%9D%97%98%F0%9D%97%94%F0%9D%97%A0+%F0%9D%97%A0%F0%9D%97%AE%F0%9D%98%81%F0%9D%97%A5%F0%9D%97%B6%F0%9D%98%85%F0%9D%97%95%F0%9D%97%BC%F0%9D%98%81%F0%9D%98%87;%F0%9D%97%94+%F0%9D%97%A6%F0%9D%97%9C%F0%9D%97%A0%F0%9D%97%A3%F0%9D%97%9F%F0%9D%97%98+%F0%9D%97%A7%F0%9D%97%9A+%F0%9D%97%95%F0%9D%97%A2%F0%9D%97%A7+MAKER)](https://git.io/typing-svg)
-<p align="center">
-  <img src="https://telegra.ph/file/79bd83439254ed9c4bbca.jpg" alt="MatRixBotz LOGO">
-</p>
-<h1 align="center">
-  <b> 𝙋𝙀𝙏𝙀𝙍 𝙋𝘼𝙍𝙆𝙀𝙍 𝐁𝐎𝐓</b>
-</h1>
-
-<a href="https://github.com/matrixbotz0/PETER-PARKER-BOT"><img src="https://img.shields.io/github/stars/matrixbotz0/PETER-PARKER-BOT?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/matrixbotz0/PETER-PARKER-BOT/network/members"> <img src="https://img.shields.io/github/forks/matrixbotz0/PETER-PARKER-BOT?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/matrixbotz0/PETER-PARKER-BOT"> <img src="https://img.shields.io/github/repo-size/matrixbotz0/PETER-PARKER-BOT?color=skyblue&logo=github&logoColor=blue&style=for-the-badge" /></a>   
-<a href="https://github.com/matrixbotz0/PETER-PARKER-BOT/commit/main"> <img src="https://img.shields.io/github/last-commit/matrixbotz0/PETER-PARKER-BOT?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/matrixbotz0/PETER-PARKER-BOT"> <img src="https://img.shields.io/github/contributors/matrixbotz0/PETER-PARKER-BOT?color=skyblue&logo=github&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/matrixbotz0/PETER-PARKER-BOT/blob/main/LICENSE"> <img src="https://img.shields.io/badge/License- GPL 2.0 license -blueviolet?style=for-the-badge" alt="License" /> </a>
-<a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-skyblue?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=white&label=pyrogram&logo=python&logoColor=blue&style=for-the-badge" /></a>
-
-
 ## Features
 
 - [x] Auto Filter
@@ -60,10 +42,6 @@
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/PYROPRIEST/legend)
 
-## Deploy to Koyeb
-
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/koyeb/PETER-PARKER-BOT&branch=main&name=PETER-PARKER-BOT)
-
 ## Commands
 ```
 start - check bot alive
@@ -95,7 +73,4 @@ broadcast - to broadcast a message to all users
 grop_broadcast - to broadcast a message to all groups
 ```
 
-## TELAGRAM SUPPORT 
-
-* [![Matrix BOTZ](https://img.shields.io/static/v1?label=MATRIX&message=BOTZ&color=critical)](https://t.me/MatRixBotzTGsupport)
 
